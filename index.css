@@ -1,0 +1,327 @@
+#container {
+    margin: 0;
+    padding: 0;
+    resize: both;
+    overflow: auto;
+}
+
+#navPrincipal {
+    margin: 0;
+    padding: 0;
+    height: 30%;
+    width: 100%;
+    background-color: rgb(53, 58, 64, 255);
+}
+
+#logoCodoACodo {
+    margin: 2% 1% 3% 14%;
+    height: 4rem;
+    width: 7.5rem;
+    padding: 1%;
+}
+
+#h5ConfBsAs {
+    font-size: 1.5rem;
+    min-width: max-content;
+}
+
+#derechaNav {
+    margin-top: 1.1%;
+    margin-right: 4%;
+}
+
+#derechaNav a {
+    font-size: 1.25rem;
+}
+
+#t1 {
+    color: white;
+}
+
+#t2 {
+    color: rgb(155, 148, 148);
+}
+
+#t3 {
+    color: rgb(16, 165, 16);
+}
+
+#divImagenPrincipal {
+    height: 82vh;
+    width: 100%;
+    background-image: url(Img/ba1OSCU.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#h3ConfBsAs {
+    font-size: 2.5rem;
+}
+
+#parrafoEnImagen {
+    font-size: 1.25rem;
+}
+
+#button1 {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    border: solid 0.125rem white;
+}
+
+#button2 {
+    background-color: rgb(16, 165, 16);
+    color: white;
+    border: none;
+}
+
+#cards1 {
+    text-align: center;
+    margin-top: 1%;
+}
+#cards1 h5{
+    font-size: 0.9rem;
+}
+
+.oradores {
+    margin: 0;
+    padding-bottom: 0.5rem;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#cards2 {
+    display: flex;
+    justify-content: center;
+}
+
+#cards {
+    margin: 0 1%;
+}
+
+.card h5 {
+    color: black;
+    font-size: x-large;
+    text-align: left;
+}
+
+.card p {
+    font-size: small;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.etiquetas {
+    display: flex;
+}
+
+.javascript {
+    font-size: 0.875rem;
+    font-weight: bold;
+    background-color: rgb(254, 193, 7, 255);
+    text-align: center;
+    border-radius: 10%;
+    margin-top: 2%;
+    margin-right: 2%;
+    padding: .25rem;
+}
+
+.react {
+    font-size: 0.875rem;
+    font-weight: bold;
+    background-color: rgb(23, 162, 184, 255);
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    margin-top: 2%;
+    padding: .25rem;
+}
+
+#negocios {
+    font-size: 0.875rem;
+    font-weight: bold;
+    background-color: rgb(109, 116, 126, 255);
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    margin-top: 2%;
+    margin-right: 2%;
+    padding: .25rem;
+}
+
+#startups {
+    font-size: 0.875rem;
+    font-weight: bold;
+    background-color: rgb(220, 53, 70, 255);
+    text-align: center;
+    border-radius: 10%;
+    color: white;
+    margin-top: 2%;
+    padding: .25rem;
+}
+
+#fondoMarco {
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-top: 3%;
+}
+
+#fondo1 {
+    height: 482, 1rem;
+    width: 50%;
+    margin-right: 0.1%;
+}
+
+#fondo2 {
+    height: 482, 1rem;
+    width: 50%;
+    background-color: rgb(53, 58, 64, 255);
+    color: white;
+    padding: 2% 1%;
+}
+
+#fondo2 input {
+    height: 9%;
+    width: 14%;
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: solid 0.063rem white;
+    border-radius: 7%;
+    padding: 0.8%;
+}
+
+#form {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+}
+#form h5{
+    font-size: 0.9rem;
+}
+
+p span {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+
+#nombre {
+    width: 22%;
+    margin-right: 2%;
+}
+
+#apellido {
+    width: 22%;
+}
+
+#texto {
+    width: 46%;
+    margin-top: 1%;
+    font-size: large;
+    padding: 1%;
+}
+
+#pietexto {
+    margin-left: 27%;
+    color: rgb(162, 163, 160, 255);
+}
+
+#enviar {
+    width: 46%;
+    height: 30%;
+    text-align: center;
+    margin-left: 27%;
+    padding: 0.5% 0;
+    font-size: 1.375rem;
+    background-color: rgb(150, 201, 62, 255);
+    color: white;
+    border: none;
+}
+
+#footer {
+    background-color: rgb(29, 70, 92, 255);
+}
+
+#footer a {
+    color: white;
+    font-size: 1rem;
+}
+
+#divTextosFooter {
+   width: 80%;
+}
+
+#promociones{
+    width: 100vw;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center; 
+}
+
+#promociones div{
+    padding: 1%;
+    margin: 1%;
+}
+
+.categoria{
+    border: solid 0.2rem;
+}
+
+#contenedorrPrincipal{
+    margin: 0%;
+    padding: 0%;
+}
+
+#contenedorPrincipal input{
+    margin: 0%;
+    padding: 0.7%;
+    width: 100%;
+    border: none;
+    color: black;
+}
+
+#divTotalAPagar{
+    width: 100vw;
+    margin-top: 2%;
+    font-size: larger;
+    text-align: center;
+    background-color: rgba(103,198,220,255); 
+    color: rgb(50, 50, 226);    
+}
+
+#borrar{
+    margin: 1.5% 1% 0% 0%;
+    padding: 1% 1%;
+    width: 98%;
+    background-color: rgb(150, 201, 62, 255);
+    color: white;
+    border: none;
+}
+
+#resumen{
+    margin: 1.5% 0% 0% 1%;
+    padding: 1% 1%;
+    width: 99%;
+    background-color: rgb(150, 201, 62, 255);
+    color: white;
+    border: none;
+}
+
+
+select{
+    border: none;
+    width: 100%;
+    padding: 1% 0%;
+    margin: 0.5% 0%;
+}
+
+label{
+    padding: 0.3% 0%;
+    margin: 0.3% 0%;
+}
