@@ -26,5 +26,5 @@ function calcularTotalAPagar (){
         default: total = 0;
     }
     
-    document.getElementById('totalAPagar').innerText = total;
+    document.getElementById('totalAPagar').innerText = (" $" + total);
 }
